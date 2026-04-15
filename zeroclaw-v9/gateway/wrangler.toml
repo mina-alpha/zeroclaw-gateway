@@ -1,0 +1,22 @@
+name = "zeroclaw-gateway"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+# KV Namespace binding for persistent memory
+[[kv_namespaces]]
+binding = "CLAW_MEMORY"
+id = "eda2aa264b95481d9fa3a6abb2bce948"
+
+# Workers AI binding for AI models
+[ai]
+binding = "AI"
+
+# Environment variables
+[vars]
+VERSION = "9.0.0"
+CLAW_MODE = "GOD_TIER"
+
+# Development settings
+[dev]
+port = 8787
+local_protocol = "http"

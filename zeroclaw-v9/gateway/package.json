@@ -1,0 +1,15 @@
+{
+  "name": "zeroclaw-gateway",
+  "version": "9.0.0",
+  "description": "ZeroClaw Gateway v9 - God Tier Master Assistant with 35+ Tools",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241127.0",
+    "wrangler": "^3.91.0"
+  }
+}
